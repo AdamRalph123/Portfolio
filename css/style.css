@@ -7,7 +7,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .hero-header {
@@ -49,6 +49,86 @@ header {
     cursor: pointer;
     text-align: center;
 }
+
+.logo .logo-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+nav .togglebtn {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+    right: 3%;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+}
+
+nav .togglebtn span {
+    display: block;
+    background-color: #52cbbf;
+    margin: 5px 0px;
+    width: 100%;
+    height: 3px;
+    transition: 0.3s;
+    transition-property: transform, opacity;
+}
+
+nav .navlinks {
+    list-style-type: none;
+}
+
+nav .navlinks li {
+    display: inline-block;
+}
+
+nav .navlinks a {
+    color: #52cbbf;
+    margin-right: 2.2rem;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.container .hero-pic {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero-pic img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.hero-pic img:hover {
+    transform: scale(1.2);
+}
+
+.hero-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text h5 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.hero-text h5 span {
+    color: #fff;
+    font-size: 16px;
+} 
 
 /* * {
     margin: 0;
