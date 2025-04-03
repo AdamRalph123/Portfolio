@@ -99,8 +99,8 @@ nav .navlinks a {
 }
 
 .container .hero-pic {
-    width: 300px;
-    height: auto;
+    width: 200px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -115,7 +115,7 @@ nav .navlinks a {
 }
 
 .hero-text {
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -128,7 +128,18 @@ nav .navlinks a {
 .hero-text h5 span {
     color: #fff;
     font-size: 16px;
-} 
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.hero-text p {
+    color: #fff;
+}
+
+
 
 /* * {
     margin: 0;
